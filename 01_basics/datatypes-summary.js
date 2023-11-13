@@ -45,3 +45,31 @@ const myFunction = function () {
 }
 
 console.log(typeof myFunction);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Types of Memory in JS
+    // 1. Stack Memory : (Primitive Types)
+    // 2. Heap Memory : (Reference Types / Non Primitive Types)
+
+let myYoutubeName = "priyanshuyadavdotcom";
+
+let anotherName = myYoutubeName;
+anotherName = "yadavpriyanshu";
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@paloalto.com", 
+    upi: "priyanshu@ybl",
+
+}
+
+let userTwo = userOne;
+
+userTwo.email = "changedViaUserTwo"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
