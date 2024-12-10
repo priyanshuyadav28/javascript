@@ -8,8 +8,7 @@ score = "33abc"
 // converting from one datatype to other
 let valueInNumber = Number(score) // conversion of string datatype to number
 
-// score with value 33abc will be converted into number and its type will be number 
-// but it's value will be NaN (Not a Number)
+// score with value 33abc will not be converted into number and it's value will be NaN (Not a Number)
 
 // console.log(typeof valueInNumber);
 // console.log("value of score in number: ", valueInNumber);
